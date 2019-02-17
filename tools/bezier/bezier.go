@@ -16,7 +16,7 @@ type point struct {
 // Graphics Gems 5, 'Quick and Simple Bézier Curve Drawing', pages 206-209.
 type Curve []point
 
-// NewCurve returns a Curve initialized with the control points in cp.
+// New: New returns a Curve initialized with the control points in cp.
 func New(cp ...vg.Point) Curve {
 	if len(cp) == 0 {
 		return nil

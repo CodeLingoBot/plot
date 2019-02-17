@@ -123,7 +123,7 @@ func (n stackValues) Value(i int) float64 {
 	return sum
 }
 
-// An example of making a stacked area chart.
+// Example_stackedAreaChart: An example of making a stacked area chart.
 func Example_stackedAreaChart() *plot.Plot {
 	p, err := plot.New()
 	if err != nil {

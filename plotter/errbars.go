@@ -140,7 +140,7 @@ type XErrorBars struct {
 	CapWidth vg.Length
 }
 
-// Returns a new XErrorBars plotter, or an error on failure. The error values
+// NewXErrorBars returns a new XErrorBars plotter, or an error on failure. The error values
 // from the XErrorer interface are interpreted as relative to the corresponding
 // X value. The errors for a given X value are computed by taking the absolute
 // value of the error returned by the XErrorer and subtracting the first and
